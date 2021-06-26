@@ -1,2 +1,1 @@
-web: gunicorn csvmaster.wsgi
-web: python manage.py runserver
+web gunicorn csvmaster.wsgi

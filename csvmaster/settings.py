@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-4*9p_ri#$nl1=6u-fc+whr4ac7y53szqw+cq8et7u$dj$1yvxk
 DEBUG = True
 
 ALLOWED_HOSTS = [
+	'185.16.31.83',
 	'https://testplaneks.herokuapp.com',
 	'localhost',
 	'127.0.0.1'

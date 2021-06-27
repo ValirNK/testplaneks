@@ -1,1 +1,1 @@
-web gunicorn csvmaster.wsgi
+web: gunicorn csvmaster.wsgi

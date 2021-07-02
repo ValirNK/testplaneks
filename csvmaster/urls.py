@@ -19,7 +19,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import Login
+from ..master.views import Login
 
 urlpatterns = [
     path('', Login.as_view(), name='index'),

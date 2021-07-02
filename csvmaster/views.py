@@ -3,7 +3,7 @@ from django.template import loader
 from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import ListView
-from ..master.models import Musician
+from .models import Musician
 
 
 def index(request):

@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'csvmaster.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3cc06fq71ijk5',
-        'USER': 'txaooyjbkdmddy',
-        'PASSWORD': '7b3c15cb489f726d3f60672fb1141f6dd4ee0ed27dda867e5788d6e68bdc1019',
-        'HOST': 'ec2-108-128-104-50.eu-west-1.compute.amazonaws.com',
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASS'),
+        'HOST': os.environ.get('DB_HOST'),
         'PORT': '5432',
     }
 }
